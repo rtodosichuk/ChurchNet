@@ -1,0 +1,45 @@
+﻿@page
+@model SermonsModel
+@{
+    ViewData["Title"] = "Sermons";
+}
+
+@section banner  {
+    <div class="section no-pad-bot banner banner-flex" id="sermon-banner">
+        <div class="container grey-text text-lighten-2">
+            <div class="row">
+                <div class="col l12">
+                    <h3 class="center white-text">Harrison Seventh-day Adventist Church Sermons</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="container">
+    <partial name="_BulletinPartial" />
+    <div class="row">
+        <div class="col s12 l9">
+            <h3 class="lime-text text-darken-4">Online Sermons</h3>
+            <p>
+                To listen to a online sermon click the play arrow below the sermon name.
+            </p>
+
+            @foreach (var sermon in Model.Sermons)
+            {
+            <header>
+                <h5><strong>@sermon.Title</strong></h5>
+                <span style="font-size:1.1rem;line-height:100%">@sermon.Presenter | @sermon.Date</span>
+            </header>
+            <audio controls>
+                <source src="@Request.Scheme://@Request.Host@sermon.File" type="audio/mpeg" />
+                Your browser does not support this audio format.
+            </audio>
+            <br />
+            }
+        </div>
+        <div class="col l3 hide-on-med-and-down">
+            <partial name="_SideNavPartial" />
+        </div>
+    </div>
+</div>

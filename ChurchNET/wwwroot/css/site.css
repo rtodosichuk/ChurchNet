@@ -1,0 +1,97 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+.brand-logo > span {
+    font-size: 1.7rem;
+}
+
+.banner {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.banner-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    background-color: lightgray;
+    background-color: rgba(82, 135, 140, 0.45);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn-bulletin {
+    position: absolute;
+    transform: translateY(-27px);
+}
+
+#index-banner {
+    background-image: url('../images/churchbackground1.jpg');
+}
+
+#sermon-banner {
+    background-image: url('../images/hands-praying.jpg');
+}
+
+#calendar-banner {
+    background-image: url('../images/day-planner.jpg');
+}
+
+#beliefs-banner {
+    background-image: url('../images/open-bible.jpg');
+}
+
+#history-banner {
+    background-image: url('../images/book-light.jpg');
+}
+
+#links-banner {
+    background-image: url('../images/art-cross.jpg');
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 400px;
+    }
+
+    #index-banner {
+        background-image: url('../images/churchbackground2.jpg');
+    }
+}
+
+#mobile-demo > li {
+    margin-left: 10px;
+}
+
+audio {
+    width: 100%;
+    height: 50px;
+}
+
+.text-lg {
+    font-size: 1.15rem;
+}
+
+#links a {
+    color: #1b5e20;
+}
+    #links a:visited {
+        color:#1b5e20;
+    }
+
+    #links a:hover {
+        color: #1b5e20;
+        font-size: 1.02rem;
+    }

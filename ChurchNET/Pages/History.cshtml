@@ -1,0 +1,79 @@
+﻿@page
+@model ChurchNET.Pages.HistoryModel
+@{
+    ViewData["Title"] = "History";
+}
+
+@section banner  {
+    <div class="section no-pad-bot banner banner-flex" id="history-banner">
+        <div class="container grey-text text-lighten-2">
+            <div class="row">
+                <div class="col l12">
+                    <h3 class="center white-text">Harrison Seventh-day Adventist Church History</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="container">
+    <partial name="_BulletinPartial" />
+    <div class="row">
+        <div class="col s12 l9">
+            <h3 class="lime-text text-darken-4">Harrison Seventh-day Adventist Church History</h3>
+            <p>
+                <img class="materialboxed" align="left" width="100" height="75" src="images/Untitled-1a.jpg">
+                In the late winter of 1992, following the Revelation Now Crusade held by
+                Ron Halvorsen at the Trade Center in downtown Chattanooga, several
+                Ooltewah SDA Church members began following up interests in the Harrison
+                area. Twenty-five people regularly attended the Friday night Daniel Bible
+                class that was conducted by the Ooltewah group at the New Bethel Baptist
+                Church. This led to a decision by Pastor Mike Pettengill and the board of the
+                Ooltewah SDA church, to begin holding regular services in Harrison at the New Bethel facility
+                in June of that year.
+            </p>
+            <p>
+                In the fall of 1993, students from Southern Adventist University's (SAU) Campus Ministry
+                organization and the School of Religion's Student Ministerial Association took Harrison as a
+                project for community outreach, under the direction of Dr. Ron Clouzet. These young people
+                visited virtually every home in Harrison with a community interest survey in a program they
+                called &quot;Harrison Heartreach&quot;. The outreach was divided into two phases: Bay Blitz, which
+                involved 80 <img class="materialboxed" align="right" width="100" height="80" src="images/Untitled-22.jpg" />
+                students making initial home visits resulting in nearly 700 people filling out
+                survey forms; and Bible Blitz, in which Bible studies were delivered to homes
+                on a regular basis. Initially, 200 people agreed to accept studies, and of
+                these, 100 continued over a period of months. During this program, and
+                during the entire academic year, about 30 SAU students attended the
+                Harrison church on a fairly regular basis.
+            </p>
+            <p>
+                <img src="images/Untitled-4.jpg" class="materialboxed" align="left" width="100" height="65" />
+                Near the end of the 1994 winter semester, the newly-formed Harrison group
+                had moved to the Harrison Bay Vocational Training Center near the Snowhill
+                Elementary School, meeting there until January 24, 1998. A generous gift
+                enabled the Harrison group to purchase property on which to build. After
+                considerable searching, it was decided to purchase the current property
+                from Dennis &amp; Brenda Banther. The purchase was closed February 1, 1995. After the sale
+                the Banthers made a generous contribution to the building fund. Praise the Lord for all
+                those whose generosity has made the building of this church possible and the subsequent
+                debt elimination.<img src="images/Untitled-31.jpg" class="materialboxed" align="right" width="100" height="62" />
+            </p>
+            <p>
+                On November 18, 1995 the Harrison group was organized by the Georgia-
+                Cumberland Conference of Seventh Day Adventists (GCCSDA) as an official
+                company. At the time of organization there were 25 members. As of January
+                24, 2004 there are 101 members.
+            </p>
+        </div>
+        <div class="col l3 hide-on-med-and-down">
+            <partial name="_SideNavPartial" />
+        </div>
+    </div>
+</div>
+@section scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.materialboxed').materialbox();
+        });
+    </script>
+}

@@ -1,0 +1,30 @@
+﻿@page
+@model ChurchNET.Pages.CalendarModel
+@{
+    ViewData["Title"] = "Calendar";
+}
+
+@section banner  {
+    <div class="section no-pad-bot banner banner-flex" id="calendar-banner">
+        <div class="container grey-text text-lighten-2">
+            <div class="row">
+                <div class="col l12">
+                    <h3 class="center white-text">Harrison Seventh-day Adventist Church Calendar</h3>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+}
+
+<div class="container">
+    <partial name="_BulletinPartial" />
+    <div class="row">
+        <div class="col s12">
+            <h3 class="lime-text text-darken-3">Church Calendar</h3>
+            <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=mrmfumqqpg3mbgm0ndph84a3mg%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FNew_York"
+                    style="border-width:0;width:100%; height:600px;" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <a class="waves-effect waves-light btn green darken-4" href="https://www.google.com/calendar/embed?title=Harrison%20SDA%20Church%20Calendar&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=mrmfumqqpg3mbgm0ndph84a3mg%40group.calendar.google.com&amp;color=%230D7813&amp;ctz=America%2FNew_York">Full Screen Calendar</a>
+        </div>
+    </div>
+</div>

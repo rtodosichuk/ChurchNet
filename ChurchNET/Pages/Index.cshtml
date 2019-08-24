@@ -1,0 +1,71 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@section banner  {
+    <div class="section no-pad-bot banner banner-flex" id="index-banner">
+        <div class="container grey-text text-lighten-2">
+            <div class="row">
+                <div class="col s12 m8 l6 top">
+                    <h5 class="white-text">Harrison Seventh-Day Adventist Church</h5>
+                    <h5 class="white-text">Mission Statement</h5>
+                    <div><strong>Reaching People through People</strong></div>
+                    <div>
+                        Our mission is to reach, serve, and nurture the people in our community by
+                        meeting their needs so they may be receptive to God's final invitation.
+                    </div>
+                    <br />
+                    <div><strong class="white-text text-lg">R</strong>eaching our community</div>
+                    <div><strong class="white-text text-lg">E</strong>mbracing attendees</div>
+                    <div><strong class="white-text text-lg">A</strong>nchoring members to Christ</div>
+                    <div><strong class="white-text text-lg">C</strong>onnecting disciples to ministry</div>
+                    <div><strong class="white-text text-lg">H</strong>onoring God through worship</div>
+                    <br />
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+}
+
+<div class="container">
+    <partial name="_BulletinPartial" />
+    <div class="row">
+        <div class="col s12 l9">
+            <h3 class="lime-text text-darken-4">The Harrison Seventh-Day Adventist Church Welcomes You</h3>
+            <p>We would like to invite to to come and worship with us every Saturday.</p>
+            <p>
+                To all who are strangers and seek friendly fellowship; to all who are
+                weary and need rest; to all who seek scriptural solutions for their crushing
+                problems; to all who mourn and need comfort; to all who sin and need a
+                Savior; to all who go astray and seek to return, and to whosoever will, the
+                Harrison Seventh-day Adventist Church family extends to you a warm-hearted
+                welcome home!
+            </p>
+            <h4 class="lime-text text-darken-4">Times</h4>
+            <p>
+                Lesson Study: 9:30-10:30 a.m.<br />
+                Worship Service: 11:00-12:15 p.m.<br />
+                Fellowship meal, 3rd Sabbath of the month
+            </p>
+
+            <h4 class="lime-text text-darken-4">Location</h4>
+            <p>
+                8419 Hwy 58<br />
+                P.O. Box 969<br />
+                Harrison, TN 37341<br />
+                (423) 344-7872<br />
+                (Between Pinebrook Dr. and Shirley Pond Dr. a few miles past Harrison Bay State Park)<br />
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.679929658986!2d-85.08815908433661!3d35.16459996573824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88608635fed21bff%3A0x252e55fa989cbad1!2s8419+TN-58%2C+Harrison%2C+TN+37341!5e0!3m2!1sen!2sus!4v1549736927720" frameborder="0" style="border:0; width:100%; min-height:500px;" allowfullscreen></iframe>
+            <p>
+                <a class="waves-effect waves-light btn green darken-4" href="http://maps.google.com/?daddr=8419+Hwy+58+Harrison,TN,37341"><i class="material-icons left">directions_car</i> Get Directions</a>
+            </p>
+        </div>
+        <div class="col l3 hide-on-med-and-down">
+            <partial name="_SideNavPartial" />
+        </div>
+    </div>
+</div>
