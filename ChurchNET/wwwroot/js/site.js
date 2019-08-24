@@ -3,10 +3,11 @@
 
 // Write your Javascript code.
 $(document).ready(function () {
-    $(".sidenav").sidenav();    
+    $(".sidenav").sidenav();
+    $('.tooltipped').tooltip();
     $("aside").pushpin({
-        top: 650,
-        bottom: 1700,
+        top: 600,
+        bottom: 5000,
         offset: 0
     });
 });
