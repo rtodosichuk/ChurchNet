@@ -15,9 +15,4 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
   </ItemGroup>
 
-
-  <ItemGroup>
-    <Folder Include="wwwroot\sermon_files\" />
-  </ItemGroup>
-
 </Project>
