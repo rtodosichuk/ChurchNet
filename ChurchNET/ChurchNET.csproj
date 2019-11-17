@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\sermon_files\20181019[Living_Upright_in_an_Upside-Down_World][Pastor_Sergio_Freeman].mp3" />
     <Content Remove="wwwroot\sermon_files\20190504[An_Unsung_Hero][Pastor_Sergio_Freeman].mp3" />
     <Content Remove="wwwroot\sermon_files\20190511[Can_Anything_Good_Come_Out_of_Nazareth][Corbin_Pitman].mp3" />
     <Content Remove="wwwroot\sermon_files\20190518[When_We_Get_What_We_Want][Pastor_Sergio_Freeman].mp3" />
@@ -15,19 +14,6 @@
     <Content Remove="wwwroot\sermon_files\20190608[They_Shall_Obtain_Mercy][Doreen_Phillips].mp3" />
     <Content Remove="wwwroot\sermon_files\20190619[The_God_Who_Comes_Looking][Pastor_Sergio_Freeman].mp3" />
     <Content Remove="wwwroot\sermon_files\20190622[Rich_in_his_presence_-_How_the_Sabbath_made_me_a_Billionaire][Jim_Sutton].mp3" />
-    <Content Remove="wwwroot\sermon_files\20190629[Who%27s Your Friends][Kenny Phillips].mp3" />
-    <Content Remove="wwwroot\sermon_files\20190706[Our_Declaration_of_Independence][Pastor_Sergio_Freeman].mp3" />
-    <Content Remove="wwwroot\sermon_files\20190713[God_is_always_the_same][Adrienne_Royo].mp3" />
-    <Content Remove="wwwroot\sermon_files\20190720[A_Call_to_Holiness][Pastor_Sergio_Freeman].mp3" />
-    <Content Remove="wwwroot\sermon_files\20190727[This_is_Your_Life][Leland_Johnson].mp3" />
-    <Content Remove="wwwroot\sermon_files\20190803[Up_From_Lo-Debar][Pastor_Sergio_Freeman].mp3" />
-    <Content Remove="wwwroot\sermon_files\20190810[Part_3HeavenPleasures_Forevermore][Carl_Martin].mp3" />
-    <Content Remove="wwwroot\sermon_files\20190817[The_Power_of_Your_Words][Sergio_Freeman].mp3" />
-    <Content Remove="wwwroot\sermon_files\20190907[The_Words_That_You_Never_Want_to_Hear][Pastor_Sergio_Freeman].mp3" />
-    <Content Remove="wwwroot\sermon_files\20190919[The_Real_ID][Kenny_Phillips].mp3" />
-    <Content Remove="wwwroot\sermon_files\20190921[Your_Ultimate_Calling][Pastor_Sergio_Freeman].mp3" />
-    <Content Remove="wwwroot\sermon_files\20191005[When_Running_on_Empty][Pastor_Sergio_Freeman].mp3" />
-    <Content Remove="wwwroot\sermon_files\20191012[How_Much_Further][Marco_Estrada].mp3" />
   </ItemGroup>
 
 

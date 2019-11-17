@@ -24,7 +24,7 @@ namespace ChurchNET.Pages
 
         public void OnGet()
         {
-            var slist = System.IO.File.ReadAllText(Path.Combine(_env.ContentRootPath, "wwwroot/sermon_files/sermonlist.json"));
+            var slist = System.IO.File.ReadAllText(Path.Combine(_env.ContentRootPath, "wwwroot/sermonlist.json"));
             Sermons = JsonConvert.DeserializeObject<List<Sermon>>(slist);
         }
     }
