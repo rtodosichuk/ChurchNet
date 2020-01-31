@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ChurchNET.Pages
 {
+    /// <summary>
+    /// Page that contains a list of links to common or instersting pages.
+    /// </summary>
     public class LinksModel : PageModel
     {
         public void OnGet()
