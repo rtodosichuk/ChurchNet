@@ -64,7 +64,7 @@
             <li>
                 <span style="font-weight:bold">Common Links</span>
                 <ul>
-                    <li><a href="http://AdventistGiving.org">Adventist Giving</a></li>
+                    <li><a href="https://adventistgiving.org/#/org/ANTFHF/envelope/start">Adventist Giving</a></li>
                     <li><a href="http://ssnet.org/study-guides/">Sabbath School Lesson</a></li>
                     <li><a href="http://www.biblegateway.com">Bible Gateway</a></li>
                     <li><a href="http://www.kodachrome.org/spiritgift/">Spiritual Gifts Test</a></li>
@@ -76,12 +76,14 @@
         </ul>
     </header>
 
+    <partial name="_AlertMessage" />
+
     @RenderSection("banner", required: false)
 
     @*<partial name="_CookieConsentPartial" />*@
-<main role="main">
-    @RenderBody()
-</main>
+    <main role="main">
+        @RenderBody()
+    </main>
 
     <footer class="page-footer grey lighten-1">
         <div class="container">

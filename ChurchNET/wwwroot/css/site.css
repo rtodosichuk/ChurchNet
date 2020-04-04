@@ -97,3 +97,18 @@ audio {
         color: #1b5e20;
         font-size: 1.02rem;
     }
+
+/*Alert message styling*/
+#alert {
+    position: absolute;
+    transition: box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    padding: 1px;
+    z-index: 1;
+    font-size: 1.2rem;
+    width: 100%
+}
+
+    #alert p {
+        font-size: 1.1em;
+    }
