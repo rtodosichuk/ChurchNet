@@ -17,25 +17,23 @@
 }
 
 <div class="container">
-    <partial name="_BulletinPartial" />
     <div class="row">
         <div class="col s12 l9">
             <h3 class="lime-text text-darken-4">Online Sermons</h3>
             <p>
                 To listen to a online sermon click the play arrow below the sermon name.
             </p>
-
             @foreach (var sermon in Model.Sermons)
             {
-            <header>
-                <h5><strong>@sermon.Title</strong></h5>
-                <span style="font-size:1.1rem;line-height:100%">@sermon.Presenter | @sermon.Date</span>
-            </header>
-            <audio controls>
-                <source src="@Request.Scheme://@Request.Host@sermon.File" type="audio/mpeg" />
-                Your browser does not support this audio format.
-            </audio>
-            <br />
+                <header>
+                    <h5><strong>@sermon.Title</strong></h5>
+                    <span style="font-size:1.1rem;line-height:100%">@sermon.Presenter | @sermon.Date</span>
+                </header>
+                <audio controls>
+                    <source src="@Request.Scheme://@Request.Host@sermon.File" type="audio/mpeg" />
+                    Your browser does not support this audio format.
+                </audio>
+                <br />
             }
         </div>
         <partial name="_SideNavPartial" />

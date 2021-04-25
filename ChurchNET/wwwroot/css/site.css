@@ -112,3 +112,6 @@ audio {
     #alert p {
         font-size: 1.1em;
     }
+.black-alert {
+    background-color: rgba(31, 31, 31, .85); 
+}

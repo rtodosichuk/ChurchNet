@@ -13,7 +13,7 @@ namespace ChurchNET.Pages
     /// </summary>
     public class SermonsModel : PageModel
     {
-        private IHostingEnvironment _env;
+        private IWebHostEnvironment _env;
 
         /// <summary>
         /// Sermons List that is sent to the view. 
@@ -21,7 +21,7 @@ namespace ChurchNET.Pages
         [BindProperty]
         public List<Sermon> Sermons { get; set; }
 
-        public SermonsModel(IHostingEnvironment env)
+        public SermonsModel(IWebHostEnvironment env)
         {
             _env = env;
         }

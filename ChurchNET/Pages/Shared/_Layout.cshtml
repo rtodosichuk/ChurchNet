@@ -60,7 +60,7 @@
             <li><a asp-page="beliefs">Beliefs</a></li>
             <li><a asp-page="history">History</a></li>
             <li><a asp-page="links">Links</a></li>
-            <li><a href="~/Bulletin.pdf">Church Bulletin</a></li>
+            @*<li><a href="~/Bulletin.pdf">Church Bulletin</a></li>*@
             <li>
                 <span style="font-weight:bold">Common Links</span>
                 <ul>
@@ -76,7 +76,7 @@
         </ul>
     </header>
 
-    <partial name="_AlertMessage" />
+    @*<partial name="_AlertMessage" />*@
 
     @RenderSection("banner", required: false)
 
