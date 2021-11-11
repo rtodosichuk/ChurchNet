@@ -60,11 +60,11 @@
             <li><a asp-page="beliefs">Beliefs</a></li>
             <li><a asp-page="history">History</a></li>
             <li><a asp-page="links">Links</a></li>
-            @*<li><a href="~/Bulletin.pdf">Church Bulletin</a></li>*@
             <li>
                 <span style="font-weight:bold">Common Links</span>
                 <ul>
                     <li><a href="https://adventistgiving.org/#/org/ANTFHF/envelope/start">Adventist Giving</a></li>
+                    <li><a href="~/Bulletin.pdf">Church Bulletin</a></li>
                     <li><a href="http://ssnet.org/study-guides/">Sabbath School Lesson</a></li>
                     <li><a href="http://www.biblegateway.com">Bible Gateway</a></li>
                     <li><a href="http://www.kodachrome.org/spiritgift/">Spiritual Gifts Test</a></li>
@@ -139,4 +139,10 @@
 
 </body>
     @RenderSection("Scripts", required: false)
+
 </html>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+</script>

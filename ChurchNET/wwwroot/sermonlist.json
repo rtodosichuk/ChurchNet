@@ -1,5 +1,11 @@
 ﻿[
   {
+    "Title": "This Masquerade",
+    "Presenter": "Chaplian Rayner Edwards",
+    "Date": "4/24/2021",
+    "File": "/sermon_files/20210424[This_Masquerade][Chaplian_Rayner_Edwards].mp3"
+  },
+  {
     "Title": "Be a Blessing",
     "Presenter": "Calvin Ferguson",
     "Date": "4/10/2021",
@@ -18,7 +24,7 @@
     "File": "/sermon_files/20210313[Only_One][Don_Self].mp3"
   },
   {
-    "Title": "Thou Salt Not Covet",
+    "Title": "Thou Shalt Not Covet",
     "Presenter": "Pastor Sergio Freeman",
     "Date": "3/6/2021",
     "File": "/sermon_files/20210306[Thou_Salt_Not_Covet][Pastor_Sergio_Freeman].mp3"
@@ -94,11 +100,5 @@
     "Presenter": "Don Self",
     "Date": "12/12/2020",
     "File": "/sermon_files/20201212[Ordinary_to_Extraordinary][Don_Self].mp3"
-  },
-  {
-    "Title": "Honoring Your Parents",
-    "Presenter": "Pastor Sergio Freeman",
-    "Date": "12/05/2020",
-    "File": "/sermon_files/20201205[Honoring_Your_Parents][Pastor_Sergio_Freeman].mp3"
   }
 ]
