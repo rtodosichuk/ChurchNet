@@ -44,6 +44,10 @@ for details on configuring this project to bundle and minify static web assets. 
     background-image: url('../images/hands-praying.jpg');
 }
 
+#events-banner {
+    background-image: url('../images/banner-events.jpg');
+}
+
 #missions-banner {
     background-image: url('../images/homeless.jpg');
 }
