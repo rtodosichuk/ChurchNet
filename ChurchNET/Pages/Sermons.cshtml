@@ -28,7 +28,7 @@
                 </p>
                 <p>
                     <div class="container-iframe">
-                        <iframe class="responsive-iframe" src="@Model.YouTubeEmdedLiveSteam"
+                        <iframe class="responsive-iframe" src="@Model.YouTubeEmbedLiveSteam"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
                     </div>
@@ -38,46 +38,31 @@
             <hr />
             <h4 class="lime-text text-darken-4">Online Sermons</h4>
             <p>To view previous sermons visit our YouTube channel: <a href="@Model.YouTubeChannel" target="_blank">Harrison SDA Church TN</a></p>
-
-            @*<p>
-                <header>
-                    <h5><strong>Ticking Time Bomb</strong></h5>
-                    <span style="font-size:1.1rem;line-height:100%">Pastor Sergio Freeman | 5/1/20201</span>
-                </header>
-                <div class="container-iframe">
-                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/bCo_B5z_NgA"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                </div>
-            </p>
-            <p>
-                <header>
-                    <h5><strong>The Masquerade</strong></h5>
-                    <span style="font-size:1.1rem;line-height:100%">Chaplain Rayner Edwards | 4/24/20201</span>
-                </header>
-                <div class="container-iframe">
-                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/7fv0kSo7ncQ"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                </div>
-            </p>*@
-
-
-            @*<p>
-        To listen to a online sermon click the play arrow below the sermon name.
-        </p>
-        @foreach (var sermon in Model.Sermons)
-        {
-            <header>
-                <h5><strong>@sermon.Title</strong></h5>
-                <span style="font-size:1.1rem;line-height:100%">@sermon.Presenter | @sermon.Date</span>
-            </header>
-            <audio controls>
-                <source src="@Request.Scheme://@Request.Host@sermon.File" type="audio/mpeg" />
-                Your browser does not support this audio format.
-            </audio>
-            <br />
-        }*@
+            <div class="row">
+                @foreach (var sermon in Model.Sermons)
+                {
+                    <div class="col s12 m12 l6">
+                        <div class="card">
+                            <div class="card-image">
+                                <a href="@sermon.Link" target="_blank">
+                                    <img src="images/welcome_harrison_sda.png">
+                                </a>
+                            </div>
+                            <div class="card-action">
+                                <a href="@sermon.Link" target="_blank">
+                                    <div>
+                                        <strong>Speaker:</strong> @sermon.Speaker
+                                    </div>
+                                    <div>
+                                        <strong>Sermon:</strong> @sermon.Title
+                                    </div>
+                                </a>
+                                <div><strong>Date:</strong> @sermon.Date</div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
         </div>
             <partial name="_SideNavPartial" />
         </div>

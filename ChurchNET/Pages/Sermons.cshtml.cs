@@ -20,10 +20,10 @@ namespace ChurchNET.Pages
         /// <summary>
         /// Sermons List that is sent to the view. 
         /// </summary>
-        //[BindProperty]
-        //public List<Sermon> Sermons { get; set; }
+        [BindProperty]
+        public List<Sermon> Sermons { get; set; }
 
-        public string YouTubeEmdedLiveSteam { get; set; }
+        public string YouTubeEmbedLiveSteam { get; set; }
         public string YouTubeDirectLiveSteam { get; set; }
         public string YouTubeChannel { get; set; }
 
@@ -31,7 +31,7 @@ namespace ChurchNET.Pages
         {
             _env = env;
             _configuration = configuration;
-            YouTubeEmdedLiveSteam = _configuration["AppSettings:YouTube:EmdedLiveSteam"];
+            YouTubeEmbedLiveSteam = _configuration["AppSettings:YouTube:EmdedLiveSteam"];
             YouTubeDirectLiveSteam = _configuration["AppSettings:YouTube:DirectLiveSteam"];
             YouTubeChannel = _configuration["AppSettings:YouTube:Channel"];
         }
@@ -41,8 +41,8 @@ namespace ChurchNET.Pages
         /// </summary>
         public void OnGet()
         {
-            //var slist = System.IO.File.ReadAllText(Path.Combine(_env.ContentRootPath, "wwwroot/sermonlist.json"));
-            //Sermons = JsonConvert.DeserializeObject<List<Sermon>>(slist);
+            var slist = System.IO.File.ReadAllText(Path.Combine(_env.ContentRootPath, "wwwroot/sermonlist.json"));
+            Sermons = JsonConvert.DeserializeObject<List<Sermon>>(slist);
         }
     }
 }
