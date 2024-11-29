@@ -1,50 +1,285 @@
 ﻿[
+  //{
+  //  "Speaker": "Carl Martin",
+  //  "Title": "Behold the Goodness and Severity of God",
+  //  "Date": "November 28, 2024",
+  //  "Link": "https://youtube.com/live/z9BOHrAKQh0"
+  //},
   {
-    "Speaker": "Speaker: Jay Passmore",
-    "Title": "Rejoice – Part 3",
-    "Date": "December 9, 2023",
-    "Link": "https://youtube.com/live/6kqHeByOllg"
-  },
-  {
-    "Speaker": "Speaker: Tim Cross",
-    "Title": "Rejoice – Part 2",
-    "Date": "December 2, 2023",
-    "Link": "https://youtube.com/live/1jPCSS0eZW4"
-  },
-  {
-    "Speaker": "Wesley Moore",
-    "Title": "Why was Jesus baptized?",
-    "Date": "November 25, 2023",
-    "Link": "https://youtube.com/live/UVCm26oVafo"
+    "Speaker": "Elder Aaron Curry",
+    "Title": "Good News: Children of the Promise",
+    "Date": "November 23, 2024",
+    "Link": "https://youtube.com/live/qoELwjdPTaE"
   },
   {
     "Speaker": "Pastor Tim Cross",
-    "Title": "Rejoice",
-    "Date": "November 18, 2023",
-    "Link": "https://youtube.com/live/ejNzwA1PriM"
+    "Title": "Good News: SPIRIT",
+    "Date": "November 16, 2024",
+    "Link": "https://youtube.com/live/gxwablQoFhA"
   },
   {
-    "Speaker": "Dr. Greg Steinke",
-    "Title": "Where God Goes, Follow",
-    "Date": "November 11, 2023",
-    "Link": "https://youtube.com/live/aTbEBaYdJ50"
+    "Speaker": "Dick Tibbits",
+    "Title": "Winning Your Battles",
+    "Date": "November 9, 2024",
+    "Link": "https://youtube.com/live/zCMNUOyFZE4"
   },
   {
     "Speaker": "Pastor Tim Cross",
-    "Title": "Paths",
-    "Date": "November 4, 2023",
-    "Link": "https://youtube.com/live/DQ0WqlqdoG0"
+    "Title": "Good News: Newness",
+    "Date": "November 2, 2024",
+    "Link": "https://youtube.com/live/sWb9-Kv1u5o"
   },
   {
-    "Speaker": "Pastor Andrii Bedratyi",
-    "Title": "Emmanuel: God With Us",
-    "Date": "October 28, 2023",
-    "Link": "https://youtube.com/live/ncc7Z83te1I"
+    "Speaker": "Elder Donna Bearden",
+    "Title": "There is Good News with the Emphasis on the Word is",
+    "Date": "October 26, 2024",
+    "Link": "https://youtube.com/live/R6rGEHz6-40"
   },
   {
-    "Speaker": " Leland Johnson",
-    "Title": "Tragedy to Triumph",
-    "Date": "October 21, 2023",
-    "Link": "https://youtube.com/live/h-6aV_uTS6w"
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Good News: Psalms",
+    "Date": "October 19, 2024",
+    "Link": "https://youtube.com/live/Ku0zq4sKMfE"
+  },
+  {
+    "Speaker": "Joseph Khabbaz",
+    "Title": "The Hope of Glory",
+    "Date": "October 12, 2024",
+    "Link": "https://youtube.com/live/YFOei0xNHpI"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Good News: Family",
+    "Date": "October 5, 2024",
+    "Link": "https://youtube.com/live/npgQG7XhStU"
+  },
+  {
+    "Speaker": "Andy Vanarsdale",
+    "Title": "The Unlovables",
+    "Date": "September 28, 2024",
+    "Link": "https://youtube.com/live/EWouYtwTIyM"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Good News: Declared",
+    "Date": "September 21, 2024",
+    "Link": "https://youtube.com/live/W9pi48N4LKA"
+  },
+  {
+    "Speaker": "",
+    "Title": "International Sabbath",
+    "Date": "September 14, 2024",
+    "Link": "https://youtube.com/live/fX4p0yZ9QxE"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Good News: RESCUE",
+    "Date": "September 7, 2024",
+    "Link": "https://youtube.com/live/C4Oj-FH0wrs"
+  },
+  {
+    "Speaker": "Chad Moffit",
+    "Title": "Good News: Part 3",
+    "Date": "August 31, 2024",
+    "Link": "https://youtube.com/live/E6wvLeCTO7E"
+  },
+  {
+    "Speaker": "Elder Mike Mohr",
+    "Title": "My Faith Journey",
+    "Date": "August 24, 2024",
+    "Link": "https://youtube.com/live/EysM3hOkwis"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Good News: Truth",
+    "Date": "August 17, 2024",
+    "Link": "https://youtube.com/live/dhNkmiGpav0"
+  },
+  {
+    "Speaker": "Elvie Kompan",
+    "Title": "Our Journey to the Promised Land",
+    "Date": "August 10, 2024",
+    "Link": "https://youtube.com/live/jtd4jcxVe_c"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Good News",
+    "Date": "August 3, 2024",
+    "Link": "https://youtube.com/live/xCGuG7sP2qQ"
+  },
+  {
+    "Speaker": "Carl Martin",
+    "Title": "Profits, Patience and Prayer",
+    "Date": "July 27, 2024",
+    "Link": "https://youtube.com/live/YBnW9UJrPDM"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Walking: Wisdom",
+    "Date": "July 20, 2024",
+    "Link": "https://youtube.com/live/5C0Xzli9iz0"
+  },
+  {
+    "Speaker": "Aaron Curry",
+    "Title": "Walking: Wisdom From Above",
+    "Date": "July 13, 2024",
+    "Link": "https://youtube.com/live/15MlrzjMlSk"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Walking: Action",
+    "Date": "July 6, 2024",
+    "Link": "https://youtube.com/live/ULR4bGfFHec"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Walking: Patience",
+    "Date": "June 29, 2024",
+    "Link": "https://youtube.com/live/n9rEmLBOS1M"
+  },
+  {
+    "Speaker": "Mike Mohr",
+    "Title": "Rich Or Poor, Who’s Blessed More?",
+    "Date": "June 22, 2024",
+    "Link": "https://youtube.com/live/Srh3Y-xe-j0"
+  },
+  {
+    "Speaker": "Pastor Alfonso Tan",
+    "Title": "Growing Through Restraining",
+    "Date": "June 15, 2024",
+    "Link": "https://youtube.com/live/VTXsIlNN9xE"
+  },
+  {
+    "Speaker": "Pastor Eric Flickenge",
+    "Title": "Is it A Sin To Be Tempted?",
+    "Date": "June 8, 2024",
+    "Link": "https://youtube.com/live/inZG-C59XFM"
+  },
+  {
+    "Speaker": "Hillary Campbell",
+    "Title": "Search and Rescue",
+    "Date": "June 1, 2024",
+    "Link": "https://youtube.com/live/avxf_HVT9iY"
+  },
+  {
+    "Speaker": "Andy Vanarsdale",
+    "Title": "Dogs are gross",
+    "Date": "May 25, 2024",
+    "Link": "https://youtube.com/live/eI8_Feo6KWI"
+  },
+  {
+    "Speaker": "Pastor Randy Barlow",
+    "Title": "Our Near Relative Redeemer",
+    "Date": "May 11, 2024",
+    "Link": "https://youtube.com/live/_q5R7w4750g"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Walking: Perspective",
+    "Date": "May 4, 2024",
+    "Link": "https://youtube.com/live/c0OZbK2Du00"
+  },
+  {
+    "Speaker": "Brian Burgess",
+    "Title": "He Didn’t Deserve It",
+    "Date": "April 27, 2024",
+    "Link": "https://youtube.com/live/c0OZbK2Du00"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Walking: Cornerstone",
+    "Date": "April 20, 2024",
+    "Link": "https://youtube.com/live/etX66oOzIqg"
+  },
+  {
+    "Speaker": "Strings and Melodies for Jesus",
+    "Title": "Gloryland Way Bluegrass Band",
+    "Date": "April 13, 2024",
+    "Link": "https://youtube.com/live/liTyC4N8ThI"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Walking: Hope",
+    "Date": "April 6, 2024",
+    "Link": "https://youtube.com/live/aC8xASFyX40"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Walking: Hope",
+    "Date": "March 30, 2024",
+    "Link": "https://youtube.com/live/iwsAW_QJrNM"
+  },
+  {
+    "Speaker": "Aaron Curry",
+    "Title": "Walking What Is Good",
+    "Date": "March 23, 2024",
+    "Link": "https://youtube.com/live/HGSjmNnVj2E"
+  },
+  {
+    "Speaker": "Carl Martin",
+    "Title": "What is True Love?",
+    "Date": "March 16, 2024",
+    "Link": "https://youtube.com/live/B_QAl0k8DOU"
+  },
+  {
+    "Speaker": "Andy Vanarsdale",
+    "Title": "Under His Wings",
+    "Date": "March 9, 2024",
+    "Link": "https://youtube.com/live/bj2uw_p-KuI"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Walking: Know",
+    "Date": "March 2, 2024",
+    "Link": "https://youtube.com/live/l2usyeNA190"
+  },
+  {
+    "Speaker": "Artem Tavarian",
+    "Title": "Good Works",
+    "Date": "February 24, 2024",
+    "Link": "https://youtube.com/live/9b6RioiMZDM"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Walking: Paradigm",
+    "Date": "February 17, 2024",
+    "Link": "https://youtube.com/live/u-EV1KRLJws"
+  },
+  {
+    "Speaker": "Joseph Kabbaz",
+    "Title": "When Your Boat Is Filling Up",
+    "Date": "February 10, 2024",
+    "Link": "https://youtube.com/live/u-EV1KRLJws"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Walking: Love",
+    "Date": "February 3, 2024",
+    "Link": "https://youtube.com/live/EByGwGQDz7g"
+  },
+  {
+    "Speaker": "Vonda Beerman",
+    "Title": "Songs of Faith",
+    "Date": "January 27, 2024",
+    "Link": "https://youtube.com/live/cSw6sw-aCrI"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Walking: Abide",
+    "Date": "January 20, 2024",
+    "Link": "https://youtube.com/live/cip3Eq1bugo"
+  },
+  {
+    "Speaker": "Chad Moffit",
+    "Title": "Jesus our Advocate",
+    "Date": "January 13, 2024",
+    "Link": "https://youtube.com/live/A-VSFMMIyEk"
+    //  "Link": "https://youtube.com/live/zxS06vOtD5g"
+  },
+  {
+    "Speaker": "Pastor Tim Cross",
+    "Title": "Walking",
+    "Date": "January 6, 2024",
+    "Link": "https://youtube.com/live/r-hUmywdlXs"
   }
 ]
