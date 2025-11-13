@@ -40,7 +40,8 @@ namespace ChurchNET
             {
                 app.UseExceptionHandler("/Error");
             }
-            
+
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
