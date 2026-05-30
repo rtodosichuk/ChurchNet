@@ -160,3 +160,20 @@ hr {
 .text-bold {
     font-weight: bolder;
 }
+
+/* Yellow banner */
+.alert-banner {
+    padding: 10px 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    z-index: 9999;
+    width: 100%;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .alert-banner {
+        font-size: 1rem;
+        padding: 10px 4px;
+    }
+}
